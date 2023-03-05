@@ -3,7 +3,7 @@ name: rq-sigin-sync
 on:
   workflow_dispatch:
   schedule:
-    - cron: "30 9,10,16 * * *"
+    - cron: "30 4,9,10,16,20 * * *"
 env:
   GITHUB_NAME: ${{ secrets.GITHUBS_NAME }}
   GITHUB_EMAIL: ${{ secrets.GITHUBS_EMAIL }}
